@@ -1,20 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone
+    |Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <title>Admin Dashboard</title>
 
 </head>
+
 <body>
 
     <div class="wrapper">
-        <div class="header">Header</div>
-        <div class="sidebar">Sidebar</div>
-        <div class="main-content">Main content</div>
+        <div class="header">
+            <div class="header-top">
+                <!-- <div class="left"> -->
+                <div class="search-bar">
+                    <!-- <span class="icon-search-bar">search icon</span> -->
+                    <span class="material-icons">
+                        search
+                    </span>
+                    <input type="text">
+                </div>
+                <!-- </div> -->
+                <div class="right">
+                    <span class="material-icons-outlined">
+                        notifications_active
+                    </span>
+                    <span class="material-icons avatar">
+                        account_circle
+                    </span>
+                    <p>Bernard Minet</p>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="left">
+                    <span class="material-icons avatar">
+                        account_circle
+                    </span>
+                    <div>
+                        <p>Hi, there</p>
+                        <p>Bernard Minet</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="actions">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo centered-items">
+                <span class="material-icons">
+                    diamond
+                </span>
+                Dashboard
+            </div>
+            <div class="nav">
+                <div class="centered-items">
+                    <span class="material-icons">
+                        home
+                    </span>
+                    <a href="#">Home</a>
+                </div>
+                <div class="centered-items">
+                    <span class="material-icons">
+                        contact_emergency
+                    </span>
+                    <a href="#">Profil</a>
+                </div class="centered-items">
+                <div class="centered-items">
+                    <span class="material-icons">
+                        mode_comment
+                    </span>
+                    <a href="#">Messages</a>
+                </div class="centered-items">
+                <div class="centered-items">
+                    <span class="material-icons">
+                        history
+                    </span>
+                    <a href="#">History</a>
+                </div>
+                <div class="centered-items">
+                    <span class="material-icons">
+                        task
+                    </span>
+                    <a href="#">Tasks</a>
+                </div>
+                <div class="centered-items">
+                    <span class="material-icons">
+                        groups
+                    </span>
+                    <a href="#">Community</a>
+                </div>
+                </div class="centered-items">
+                <div class="parameters">
+                <div class="centered-items">
+                    <span class="material-icons">
+                        settings
+                        </span>
+                    <a href="#">Settings</a>
+                </div>
+                <div class="centered-items">
+                    <span class="material-icons">
+                        help
+                        </span>
+                    <a href="#">Support</a>
+                </div>
+                <div class="centered-items">
+                    <span class="material-icons">
+                        verified_user
+                        </span>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <p class="first-line" id="project">Your projects</p>
+            <div class="cards">
+                <div class="card">
+                    <div>
+                        <p class="title">Super cool project</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt numquam labore in sapiente,
+                            corrupti quisquam cum sed sint adipisci dignissimos qui asperiores voluptatem aperiam ea.</p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="title">Less cool project</p>
+                        <p>Quae libero ex, ea dignissimos quam, fugit laudantium accusantium mollitia incidunt, impedit hic
+                            vel ut itaque dicta quidem laborum magnam. Eius accusantium et rerum ducimus.</p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="title">Impossible app</p>
+                        <p>Suscipit saepe odio labore eaque sapiente tempora! Quo rerum quia expedita velit est dicta libero
+                            mollitia beatae sapiente distinctio facilis, reiciendis ratione laudantium temporibus
+                            cupiditate?</p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <p class="title">Easy peasy app</p>
+                        <p>Qui, facere! Aut qui architecto exercitationem minima odit natus velit odio consectetur fuga?
+                            Ipsam soluta enim perspiciatis assumenda porro labore incidunt autem repellat. Laborum, amet!
+                        </p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="title">Add blocker</p>
+                        <p>Mollitia non iusto nesciunt itaque vitae, nemo, quaerat ex dolorum commodi magnam quos earum
+                            aliquam ab voluptatem, reiciendis distinctio doloribus hic molestiae odit id! Tempore?</p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="title">Money maker</p>
+                        <p>Id nisi laboriosam incidunt aut dolores cumque numquam quae laudantium, blanditiis placeat beatae
+                            distinctio! Blanditiis possimus labore eos aperiam autem animi odit officiis rem enim.</p>
+                    </div>
+                    <div>
+                        <span class="material-icons">
+                            star
+                            </span>
+                        <span class="material-icons">
+                            visibility
+                            </span>    
+                        <span class="material-icons">
+                            share
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <p class="first-line">Anouncements</p>
+            <!-- <div class="side-content"> -->
+            <div class="anouncements">
+                <div>
+                    <p class="title">Site maintenance</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nihil excepturi maiores
+                        accusantium consequatur asperiores.</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="title">Community share day</p>
+                    <p>Obcaecati error cupiditate autem culpa, ea, itaque voluptate explicabo alias deserunt rem
+                        veritatis reprehenderit sequi.</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="title">Updated privacy policy</p>
+                    <p>Optio, deserunt iure saepe veniam voluptatibus illum quod aut tenetur laboriosam veritatis qui,
+                        accusantium magnam.</p>
+                </div>
+            </div>
+            <p class="first-line">Trending</p>
+            <div class="trending">
+
+                <div>
+                    <div class="avatar-trending">
+                        <span class="material-icons avatar">
+                            account_circle
+                        </span>
+                    </div>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div>
+                    <div class="avatar-trending">
+                        <span class="material-icons avatar">
+                            account_circle
+                        </span>
+                    </div>
+                    <p>Laudantium quam ad commodi?</p>
+                </div>
+                <div>
+                    <div class="avatar-trending">
+                        <span class="material-icons avatar">
+                            account_circle
+                        </span>
+                    </div>
+                    <p>Quia animi ea aliquid!</p>
+                </div>
+                <div>
+                    <div class="avatar-trending">
+                        <span class="material-icons avatar">
+                            account_circle
+                        </span>
+                    </div>
+                    <p>Quidem saepe ex ducimus.</p>
+                </div>
+            </div>
+
+            <!-- </div> -->
+        </div>
     </div>
-    
+
 </body>
+
 </html>
