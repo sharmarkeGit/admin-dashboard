@@ -115,7 +115,9 @@ html {
     background-color: hsl(209, 34%, 83%);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 20px 1fr 40px 1fr;
+    grid-template-rows: 20px 1fr 40px min-content;
+    align-items: stretch;
+ 
     gap: 10px;
     
   }
@@ -136,14 +138,13 @@ html {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /* gap: 20px; */
     border-radius: 10px;
+    justify-content: space-between;
     
   }
 
   .card div:nth-child(2){
     align-self: flex-end;
-    
   }
 
   
@@ -165,11 +166,11 @@ html {
   .first-line{
     font-weight: 600;
     align-self: flex-end;
-    
   }
 
 
   .anouncements{
+    
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -179,6 +180,7 @@ html {
   }
 
   .trending{
+    
     background-color: #fff;
     display: flex;
     flex-direction: column;
